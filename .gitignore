@@ -1,0 +1,14 @@
+env
+.env
+/env
+__pycache__
+extras
+*.rar
+test.py
+*.pdf
+*.exe
+/templates
+/test
+/pdfs
+test_code.py
+language_test.py
