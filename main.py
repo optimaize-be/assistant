@@ -24,8 +24,8 @@ from tools.parts_tool import PartsTool
 # ---------------------------
 # Config & Page
 # ---------------------------
-st.set_page_config(page_title="OptimAIze Assitant", layout="wide")
-st.markdown("## 🧠 OptimAIze Assitant")
+st.set_page_config(page_title="OptimAIze Assist", layout="wide")
+st.markdown("## 🧠 OptimAIze Assist")
 
 # ---------------------------
 # Static Product Categories (namespace = your Pinecone namespace)
@@ -421,3 +421,4 @@ elif nav == "📁 View PDFs":
                     st.markdown(f"- {file}")
             else:
                 st.info("No PDFs found in this namespace.")
+
